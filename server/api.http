@@ -5,3 +5,9 @@ Content-Type: application/json
     "name": "Rayan Siqueira",
     "email": "rayansiqueira@gmail.com"
 }
+
+###
+
+GET http://localhost:3333/invates/rayan
+
+

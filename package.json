@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "drizzle-orm": "^0.39.3",
+    "ioredis": "^5.5.0",
+    "postgres": "^3.4.5"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.30.4"
+  }
+}
