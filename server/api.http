@@ -2,12 +2,21 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-    "name": "Rayan Siqueira",
-    "email": "rayansiqueira@gmail.com"
+    "name": "Indicado 3",
+    "email": "rayan.indicado3@gmail.com",
+    "referrer": "ea82869b-f1ab-4010-89ec-51094e9641fc"
 }
 
 ###
 
-GET http://localhost:3333/invates/rayan
+GET http://localhost:3333/invates/7d5c0be5-f4e0-4ef4-ae3e-6917df84b1ed
 
 
+###
+GET http://localhost:3333/subscribers/7d5c0be5-f4e0-4ef4-ae3e-6917df84b1ed/ranking/clicks
+
+###
+GET http://localhost:3333/subscribers/7d5c0be5-f4e0-4ef4-ae3e-6917df84b1ed/ranking/count
+
+###
+GET http://localhost:3333/ranking
